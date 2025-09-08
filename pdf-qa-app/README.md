@@ -26,7 +26,7 @@
 
 ## What Was Implemented
 
-Due to GPT token limits, I was unable to use the OpenAI API for embeddings and answering questions. Instead, I implemented the backend using the Cohere API for the question-answering functionality.
+Due to GPT token limits, I was unable to use the OpenAI API for embeddings and answering questions. Instead, I implemented the backend using the Cohere API for embedding model as well as a language model for generating the natural language response for the question-answering functionality but code using OpenAI APO is commented out.
 
 ### Backend Explanation
 
@@ -43,7 +43,6 @@ Due to GPT token limits, I was unable to use the OpenAI API for embeddings and a
 ### What Was Not Implemented
 
 - OpenAI API for embeddings and answering (due to token limits)
-- Vector database storage for embeddings
 
 ### How to Run
 
