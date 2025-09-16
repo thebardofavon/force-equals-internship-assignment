@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { CalendarService } from '@/lib/calendar'
+import { CalendarService } from '../../../lib/calendar'
 import { createClient } from '@supabase/supabase-js'
 
 export async function POST(request: NextRequest) {
